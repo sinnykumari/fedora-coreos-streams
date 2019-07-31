@@ -12,3 +12,9 @@ stream, run:
 ```
 fedora-coreos-stream-generator -releases=https://builds.coreos.fedoraproject.org/prod/streams/testing/releases.json -output-file=streams/testing.json -pretty-print
 ```
+
+fedora-coreos-stream-generator -releases=https://builds.coreos.fedoraproject.org/prod/streams/testing/releases.json  -output-file=testing.json --pretty-print
+```
+
+update test comment
+
