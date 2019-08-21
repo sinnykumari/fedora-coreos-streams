@@ -1,86 +1,86 @@
 {
     "stream": "testing",
     "metadata": {
-        "last-modified": "2019-07-16T16:03:51Z"
+        "last-modified": "2019-08-21T18:10:11Z"
     },
     "architectures": {
         "x86_64": {
             "artifacts": {
                 "aws": {
-                    "release": "30.20190716.0",
+                    "release": "30.20190801.0",
                     "formats": {
                         "vmdk.xz": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-aws.vmdk.xz",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-aws.vmdk.xz.sig",
-                                "sha256": "3a813d86496e03b47628c93750a972c97a67e9ab90e424fbb6e5589bf4ce00be"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-aws.vmdk.xz",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-aws.vmdk.xz.sig",
+                                "sha256": "7afd8ebdd61ccb6da45dfb19ccc71c47f43e1189c1fb7eb75df6f23d7c8f87dc"
                             }
                         }
                     }
                 },
                 "metal": {
-                    "release": "30.20190716.0",
+                    "release": "30.20190801.0",
                     "formats": {
                         "installer-pxe": {
                             "kernel": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer-kernel",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer-kernel.sig",
-                                "sha256": "754bec54a3fbd4ea2f299476e4b971542329ffd6696bf5442b0b5256ffc6c92c"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer-kernel",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer-kernel.sig",
+                                "sha256": "bb493370b3716a009628197b7fce41107f1f5349f1a7ef67a8ecc7eebb3d2183"
                             },
                             "initramfs": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer-initramfs.img",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer-initramfs.img.sig",
-                                "sha256": "2e6faae446e4ce6575cd91c00ba25bb2b0474487ade7c80b1e169074c7bc69b9"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer-initramfs.img",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer-initramfs.img.sig",
+                                "sha256": "04dde273b9e5d1b361beb44fde337f915509ad8e128fb408f793fdd0ae84c17d"
                             }
                         },
                         "installer.iso": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer.iso",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-installer.iso.sig",
-                                "sha256": "0a09fb747d47cc2299e304e72d930bce49b51eb725da5ea15b1cb6687ad0538c"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer.iso",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-installer.iso.sig",
+                                "sha256": "aab20fcafc240fa03f7e43370f8be8c14b99b045eca156a0f5e77286b2e9e8c4"
                             }
                         },
                         "raw.xz": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-metal.raw.xz",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-metal.raw.xz.sig",
-                                "sha256": "db2659cd3920489f350eb1f18584371ecce4184f6837284c7aeb8d4c88547500"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-metal.raw.xz",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-metal.raw.xz.sig",
+                                "sha256": "881178a4794816e623b02012a84b11d59a96dd59035508a0986a5b6c6be074ed"
                             }
                         }
                     }
                 },
                 "openstack": {
-                    "release": "30.20190716.0",
+                    "release": "30.20190801.0",
                     "formats": {
                         "qcow2.xz": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-openstack.qcow2.xz",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-openstack.qcow2.xz.sig",
-                                "sha256": "617cef0a8463f7c503c5f6d8cbbfe0f13c86c944f2072c102b4b88fd4d4ffc90"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-openstack.qcow2.xz",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-openstack.qcow2.xz.sig",
+                                "sha256": "b2cab76cb2038826cb8de99f34d192bda4e805a4eb51be2979ba984424e72501"
                             }
                         }
                     }
                 },
                 "qemu": {
-                    "release": "30.20190716.0",
+                    "release": "30.20190801.0",
                     "formats": {
                         "qcow2.xz": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-qemu.qcow2.xz",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-qemu.qcow2.xz.sig",
-                                "sha256": "6500eb5ba746957761b693fd5c6e08012a123f3b75a8199e3577e8dc6253c7a9"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-qemu.qcow2.xz",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-qemu.qcow2.xz.sig",
+                                "sha256": "4dcc04bd43f48bc74a16bd7d20b47829591a2a2fbe3ee8d59fedef2b1ddd1264"
                             }
                         }
                     }
                 },
                 "vmware": {
-                    "release": "30.20190716.0",
+                    "release": "30.20190801.0",
                     "formats": {
                         "ova": {
                             "disk": {
-                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-vmware.ova",
-                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190716.0/x86_64/fedora-coreos-30.20190716.0-vmware.ova.sig",
-                                "sha256": "065dc995bbb847f283b7c334c52a3fa41bb32556ac178331511f14c466c8fb07"
+                                "location": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-vmware.ova",
+                                "signature": "https://builds.coreos.fedoraproject.org/prod/streams/testing/builds/30.20190801.0/x86_64/fedora-coreos-30.20190801.0-vmware.ova.sig",
+                                "sha256": "b905860fadbe0a754729f458c1552c19aa2f214df45d1d49731725038895094c"
                             }
                         }
                     }
@@ -90,15 +90,12 @@
                 "aws": {
                     "regions": {
                         "us-east-1": {
-                            "release": "30.20190716.0",
-                            "image": "ami-0087d0fb70c7cdca2"
+                            "release": "30.20190801.0",
+                            "image": "ami-0506465824cb1b578"
                         }
                     }
                 }
             }
         }
-    },
-    "updates": {
-        "release": "30.20190716.0"
     }
 }
